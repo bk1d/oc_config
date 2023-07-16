@@ -68,7 +68,3 @@ custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`
 custom_proxy_group=IEPL`url-test`(IEPL|Bos)`http://www.gstatic.com/generate_204`300,,50
 enable_rule_generator=true
 overwrite_original_rules=true
-append_proxy_type=true
-proxy_config=SYSTEM
-proxy_ruleset=SYSTEM
-proxy_subscription=SYSTEM
