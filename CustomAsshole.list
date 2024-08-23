@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,exness.com
 DOMAIN-SUFFIX,exweb.mobi
 DOMAIN-SUFFIX,execute-api.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,excalls.mobi
+DOMAIN-SUFFIX,synology.com
 IP-CIDR,103.10.124.0/24,no-resolve
 IP-CIDR,103.10.125.0/24,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
