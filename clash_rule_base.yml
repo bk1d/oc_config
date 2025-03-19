@@ -1,3 +1,9 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
 dns:
   fallback:
   - https://dns.cloudflare.com/dns-query
@@ -27,6 +33,7 @@ fallback-filter:
     - "+.facebook.com"
     - "+.youtube.com"
     - "+.githubusercontent.com"
+    - "+.github.com"
     - "+.googlevideo.com"
     - "+.msftconnecttest.com"
     - "+.msftncsi.com"
