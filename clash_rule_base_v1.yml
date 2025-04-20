@@ -12,11 +12,16 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
+    - https://dda.anyapis.com/eeSh8aeC4a
+    - https://cm.anyapis.com/ohX6io
   fallback:
     - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
+    - https://dda.anyapis.com/eeSh8aeC4a
+    - https://cm.anyapis.com/ohX6io
     - tls://1.1.1.1:853
     - tls://8.8.8.8:853
+    - 8.8.8.8
   fallback-filter:
     geoip: true
     geoip-code: CN
