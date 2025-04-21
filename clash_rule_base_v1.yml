@@ -7,13 +7,17 @@ external-controller: :9090
 dns:
   enable: true
   ipv6: false
+  prefer-h3: true
+  use-hosts: true
   listen: 0.0.0.0:53
-  enhanced-mode: redir-host
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    - https://dda.anyapis.com/eeSh8aeC4a
-    - https://cm.anyapis.com/ohX6io
+    - tls://223.5.5.5:853
+    - https://223.5.5.5/dns-query
+    - https://dns.alidns.com/dns-query#h3=true
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/15
   fallback:
     - https://dns.cloudflare.com/dns-query
     - https://dns.google/dns-query
@@ -24,34 +28,26 @@ dns:
     - 8.8.8.8
   fallback-filter:
     geoip: true
-    geoip-code: CN
     geosite: !CN
-    ipcidr:
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 192.0.2.0/24
-      - 192.88.99.0/24
-      - 192.168.0.0/16
-      - 198.18.0.0/15
-      - 198.51.100.0/24
-      - 203.0.113.0/24
-      - 224.0.0.0/4
-      - 240.0.0.0/4
-      - 255.255.255.255/32
-    domain:
-      - "+.google.com"
-      - "+.facebook.com"
-      - "+.youtube.com"
-      - "+.googlevideo.com"
-      - "+.youtube-nocookie.com"
-      - "+.youtu.be"
-      - "+.ytimg.com"
-      - "+.githubusercontent.com"
-      - "+.github.com"
-      - "+.msftconnecttest.com"
-      - "+.msftncsi.com"
+
+  nameserver-policy:
+    "geosite:cn": 
+      - https://223.5.5.5/dns-query
+      - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
+      - tls://223.5.5.5
+      - tls://dot.pub
+    "rule-set:direct":
+      - https://223.5.5.5/dns-query
+      - https://doh.pub/dns-query
+      - https://doh.360.cn/dns-query
+      - tls://223.5.5.5
+      - tls://dot.pub
+    "rule-set:global":
+      - https://dns.cloudflare.com/dns-query
+      - https://dns.google/dns-query
+      - https://dda.anyapis.com/eeSh8aeC4a
+      - https://cm.anyapis.com/ohX6io
+      - tls://1.1.1.1:853
+      - tls://8.8.8.8:853
+      - 8.8.8.8
