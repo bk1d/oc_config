@@ -37,13 +37,13 @@ dns:
       - https://doh.360.cn/dns-query
       - tls://223.5.5.5
       - tls://dot.pub
-    "rule-set:direct":
+    "rule-set:CHN":
       - https://223.5.5.5/dns-query
       - https://doh.pub/dns-query
       - https://doh.360.cn/dns-query
       - tls://223.5.5.5
       - tls://dot.pub
-    "rule-set:global":
+    "rule-set:Others":
       - https://dns.cloudflare.com/dns-query
       - https://dns.google/dns-query
       - https://dda.anyapis.com/eeSh8aeC4a
