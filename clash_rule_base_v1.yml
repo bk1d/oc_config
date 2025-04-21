@@ -28,7 +28,7 @@ dns:
     - 8.8.8.8
   fallback-filter:
     geoip: true
-    geosite: !CN
+    geoip-code: CN
 
   nameserver-policy:
     "geosite:cn": 
