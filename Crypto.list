@@ -107,6 +107,7 @@ DOMAIN-KEYWORD,huobi
 
 # > OKX
 DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okex.org
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx-doh.com
 DOMAIN-SUFFIX,ouxyi.cash
@@ -116,6 +117,7 @@ DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-dns2.com
 PROCESS-NAME,OKX.exe
 DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,okex
 
 # > asproex
 DOMAIN-SUFFIX,asproex.com
