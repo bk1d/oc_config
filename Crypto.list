@@ -108,6 +108,7 @@ DOMAIN-KEYWORD,huobi
 # > OKX
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx-dns.com
 DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-dns2.com
@@ -319,4 +320,5 @@ DOMAIN-SUFFIX,axiom.trade
 
 #> dune
 DOMAIN-SUFFIX,dune.com
+
 
