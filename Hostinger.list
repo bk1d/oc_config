@@ -1,0 +1,11 @@
+# > Hostinger
+IP-CIDR,72.61.32.0/19,no-resolve
+IP-CIDR,72.61.224.0/19,no-resolve
+IP-CIDR,72.62.32.0/19,no-resolve
+IP-CIDR,31.97.16.0/20,no-resolve
+IP-CIDR,31.97.80.0/20,no-resolve
+IP-CIDR,31.97.128.0/20,no-resolve
+IP-CIDR,31.97.160.0/20,no-resolve
+IP-CIDR,31.97.224.0/20,no-resolve
+IP-CIDR,31.97.240.0/20,no-resolve
+IP-CIDR,31.220.48.0/20,no-resolve
