@@ -320,10 +320,12 @@ DOMAIN-SUFFIX,gmgn.ai
 DOMAIN-SUFFIX,xxyy.io
 DOMAIN-SUFFIX,axiom.trade
 
-#> dune
+# > dune
 DOMAIN-SUFFIX,dune.com
 
-#> pump.fun
+# > pump.fun
 DOMAIN-SUFFIX,pump.com
 
-
+# > Exness
+DOMAIN-SUFFIX,exness.com
+DOMAIN-SUFFIX,exweb.mobi
