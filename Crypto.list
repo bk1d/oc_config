@@ -316,7 +316,10 @@ DOMAIN-SUFFIX,chippay.com
 DOMAIN-SUFFIX,unisat.io
 
 # > bot
+DOMAIN-KEYWORD,gmgn
 DOMAIN-SUFFIX,gmgn.ai
+DOMAIN-SUFFIX,gmgn.gracematrix.net
+DOMAIN-SUFFIX,gmgn.mobi
 DOMAIN-SUFFIX,xxyy.io
 DOMAIN-SUFFIX,axiom.trade
 
