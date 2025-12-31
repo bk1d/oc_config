@@ -1,3 +1,4 @@
+port: 7890
 dns:
   enable: true
   ipv6: false
