@@ -1,7 +1,7 @@
 dns:
   enable: true
   ipv6: false
-  listen: :23453
+  listen: 23453
   enhanced-mode: redir-host
   # 默认 DNS, 用于解析 DNS 服务器 的域名，必须为 IP, 可为加密 DNS
   default-nameserver:
