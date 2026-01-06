@@ -20,6 +20,7 @@ dns:
     - https://doh.pub/dns-query
   # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
   fallback:
+    - https://doh.opendns.com/dns-query
     - https://dns.google/dns-query
     - https://9.9.9.9/dns-query
     - https://1.1.1.1/dns-query
