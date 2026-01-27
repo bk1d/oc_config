@@ -117,6 +117,19 @@ PROCESS-NAME,OKX.exe
 DOMAIN-KEYWORD,okx
 DOMAIN-KEYWORD,okex
 
+# > Bitget
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-SUFFIX,bitkeep.life
+DOMAIN-KEYWORD,bitget
+DOMAIN-KEYWORD,bitkeep
+
+# > Safepal
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,isafepal.com
+DOMAIN-KEYWORD,safepal
+DOMAIN-KEYWORD,isafepal
+
 # > asproex
 DOMAIN-SUFFIX,asproex.com
 DOMAIN-SUFFIX,asproexapi.com
