@@ -6,6 +6,7 @@ log-level: info
 dns:
   enable: true
   ipv6: false
+  listen: :23453
   enhanced-mode: redir-host
   # 默认 DNS, 用于解析 DNS 服务器 的域名，必须为 IP, 可为加密 DNS
   default-nameserver:
@@ -20,6 +21,7 @@ dns:
     - https://doh.pub/dns-query
   # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
   fallback:
+    - 8.8.8.8
     - https://doh.opendns.com/dns-query
     - https://dns.google/dns-query
     - https://9.9.9.9/dns-query
