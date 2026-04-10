@@ -77,10 +77,11 @@ DOMAIN-SUFFIX,bnappzh.mobi
 DOMAIN-SUFFIX,bsc.getblock.io
 DOMAIN-SUFFIX,bscscan.com
 DOMAIN-SUFFIX,binancecnt.com
-PROCESS-NAME,Binance.exe
-DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,binanceapi.com
 DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,binance.click
+PROCESS-NAME,Binance.exe
+DOMAIN-KEYWORD,binance
 
 # > OKX
 DOMAIN-SUFFIX,okex.com
