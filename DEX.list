@@ -1,0 +1,46 @@
+# > Dapp
+DOMAIN-SUFFIX,sushi.com
+DOMAIN-SUFFIX,uniswap.org
+DOMAIN-SUFFIX,sunswap.com
+DOMAIN-SUFFIX,traderjoexyz.com
+DOMAIN-SUFFIX,raydium.io
+DOMAIN-SUFFIX,synthetix.io
+DOMAIN-SUFFIX,aave.com
+DOMAIN-SUFFIX,compound.finance
+DOMAIN-SUFFIX,makerdao.com
+DOMAIN-SUFFIX,wbtc.network
+DOMAIN-SUFFIX,pancakeswap.finance
+DOMAIN-SUFFIX,pancakeswap.com
+DOMAIN-SUFFIX,mdex.co
+DOMAIN-SUFFIX,mdex.one
+DOMAIN-SUFFIX,mdex.com
+DOMAIN-SUFFIX,mdex.me
+DOMAIN-SUFFIX,1inch.io
+
+# > GMGN
+DOMAIN-KEYWORD,gmgn
+DOMAIN-SUFFIX,gmgn.ai
+DOMAIN-SUFFIX,gmgn.gracematrix.net
+DOMAIN-SUFFIX,gmgn.mobi
+
+# > XXYY
+DOMAIN-SUFFIX,xxyy.io
+
+# > AXIOM
+DOMAIN-SUFFIX,axiom.trade
+
+# > pump.fun
+DOMAIN-SUFFIX,pump.fun
+
+# > Exness
+DOMAIN-SUFFIX,exness.com
+DOMAIN-SUFFIX,exweb.mobi
+DOMAIN-SUFFIX,exness.io
+DOMAIN-SUFFIX,exness.help
+DOMAIN-SUFFIX,exnessaffiliates.com
+DOMAIN-SUFFIX,eccweb.mobi
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-KEYWORD,exness
+
+# > mixpay
+DOMAIN-KEYWORD, mixpay
