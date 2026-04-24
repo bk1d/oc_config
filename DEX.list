@@ -23,6 +23,9 @@ DOMAIN-SUFFIX,gmgn.ai
 DOMAIN-SUFFIX,gmgn.gracematrix.net
 DOMAIN-SUFFIX,gmgn.mobi
 
+# > GMGN future.news
+DOMAIN-SUFFIX,future.news
+
 # > XXYY
 DOMAIN-SUFFIX,xxyy.io
 
@@ -31,6 +34,9 @@ DOMAIN-SUFFIX,axiom.trade
 
 # > pump.fun
 DOMAIN-SUFFIX,pump.fun
+
+# > Printr
+DOMAIN-SUFFIX, printr.money
 
 # > Exness
 DOMAIN-SUFFIX,exness.com
@@ -44,3 +50,6 @@ DOMAIN-KEYWORD,exness
 
 # > mixpay
 DOMAIN-KEYWORD, mixpay
+
+# > debot
+DOMAIN-SUFFIX,debot.ai
