@@ -53,3 +53,7 @@ DOMAIN-KEYWORD, mixpay
 
 # > debot
 DOMAIN-SUFFIX,debot.ai
+
+# > RWA
+DOMAIN-SUFFIX,ondo.finance
+DOMAIN-SUFFIX,msx.com
