@@ -22,15 +22,15 @@ dns:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
   # 默认的域名解析服务器
-  #default-nameserver: [223.5.5.5, 223.6.6.6, 119.29.29.29]
-  #nameserver: ['https://223.5.5.5/dns-query', 'https://223.6.6.6/dns-query', 'https://doh.pub/dns-query']
+  # default-nameserver: [223.5.5.5, 223.6.6.6, 119.29.29.29]
+  # nameserver: ['https://223.5.5.5/dns-query', 'https://223.6.6.6/dns-query', 'https://doh.pub/dns-query']
 
   nameserver:
    - https://223.5.5.5/dns-query
    - https://223.6.6.6/dns-query
    - https://doh.pub/dns-query
   # dns 连接遵守路由规则，需配置 proxy-server-nameserver
-  #proxy-server-nameserver:
+  # proxy-server-nameserver:
   #  - https://223.5.5.5/dns-query
   #  - 8.8.8.8
   # 后备域名解析服务器，一般情况下使用境外 DNS, 保证结果可信
