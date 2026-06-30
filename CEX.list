@@ -133,3 +133,8 @@ DOMAIN-SUFFIX,huobi.co.ma
 DOMAIN-SUFFIX,huobi.br.com
 PROCESS-NAME,Huobi.exe
 DOMAIN-KEYWORD,huobi
+
+
+# > FOMO
+DOMAIN-SUFFIX,fomo.family
+DOMAIN-KEYWORD,fomo-profile-pics
