@@ -138,3 +138,8 @@ DOMAIN-KEYWORD,huobi
 # > FOMO
 DOMAIN-SUFFIX,fomo.family
 DOMAIN-KEYWORD,fomo-profile-pics
+
+
+# > bullpen
+DOMAIN-SUFFIX,bullpen.fi
+DOMAIN-KEYWORD,bullpen
