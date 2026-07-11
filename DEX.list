@@ -60,3 +60,12 @@ DOMAIN-SUFFIX,ondo.finance
 DOMAIN-SUFFIX,msx.com
 DOMAIN-SUFFIX,hyperliquid.xyz
 DOMAIN-SUFFIX,trade.xyz
+
+# > FOMO
+DOMAIN-SUFFIX,fomo.family
+DOMAIN-KEYWORD,fomo-profile-pics
+
+
+# > bullpen
+DOMAIN-SUFFIX,bullpen.fi
+DOMAIN-KEYWORD,bullpen
