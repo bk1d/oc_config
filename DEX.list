@@ -30,6 +30,10 @@ DOMAIN-SUFFIX,future.news
 # > XXYY
 DOMAIN-SUFFIX,xxyy.io
 
+# > Giga X
+DOMAIN-SUFFIX,gigax.fun
+DOMAIN-KEYWORD,gigax
+
 # > AXIOM
 DOMAIN-SUFFIX,axiom.trade
 
